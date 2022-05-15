@@ -1,13 +1,20 @@
 # webアプリのホストコンテナ環境作成スクリプト
 
-- apacheコンテナ
+## apacheコンテナ
   httpdをcentos:7イメージに導入。
 
-- tomcatコンテナ
+## tomcatコンテナ
   alpineのtomcatコンテナを利用。
 
-- 利用方法
+## 利用方法
+  ```
   docker-compose build
-  docker-compose upコマンドによりwebアプリをホストできる。
-  サンプルとして、http://localhost:80/exaples/にアクセスするとサンプルアプリにアクセスできる。
+  docker-compose up
+  ```
+
+  上記のコマンドによりwebアプリをホストできる。
+  
+  サンプルとして、にアクセスするとサンプルアプリにアクセスできる。
+  
+  http://localhost:80/exaples/
   
